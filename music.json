@@ -1,0 +1,432 @@
+{
+  "album_offset": 0,
+  "albums": [
+    {
+      "artists": [
+        {
+          "id": 61436295,
+          "name": "南征北战",
+          "portrait": "http://pic.cdn.duomi.com/imageproxy2/dimgm/scaleImage?url=http://img.kxting.cn//p1/06/11/72064652.jpg&w=150&h=150&s=100&c=0&o=0&m=",
+          "valid": true
+        }
+      ],
+      "available": true,
+      "company": "",
+      "cover": "http://pic.cdn.duomi.com/imageproxy2/dimgm/scaleImage?url=http://img.kxting.cn//p1/03/26/72174854.jpg&w=150&h=150&s=100&c=0&o=0&m=",
+      "id": 2698327,
+      "name": "伪流行",
+      "num_tracks": 8,
+      "release_date": "2016-01-04",
+      "type": "专辑"
+    },
+    {
+      "artists": [
+        {
+          "id": 50000894,
+          "name": "林俊杰",
+          "portrait": "http://pic.cdn.duomi.com/imageproxy2/dimgm/scaleImage?url=http://img.kxting.cn//p1/24/11/71167778.jpg&w=150&h=150&s=100&c=0&o=0&m=",
+          "valid": true
+        }
+      ],
+      "available": true,
+      "company": "",
+      "cover": "http://pic.cdn.duomi.com/imageproxy2/dimgm/scaleImage?url=http://img.kxting.cn//p1/13/08/70000400.jpg&w=150&h=150&s=100&c=0&o=0&m=",
+      "id": 1157422,
+      "name": "曹操",
+      "num_tracks": 12,
+      "release_date": "2006-02-01",
+      "type": "专辑"
+    },
+    {
+      "artists": [
+        {
+          "id": 61794713,
+          "name": "王诚喜",
+          "portrait": "http://pic.cdn.duomi.com/imageproxy2/dimgm/scaleImage?url=http://img.kxting.cn//p1/03/05/72446786.jpg&w=150&h=150&s=100&c=0&o=0&m=",
+          "valid": true
+        }
+      ],
+      "available": true,
+      "company": "",
+      "cover": "http://pic.cdn.duomi.com/imageproxy2/dimgm/scaleImage?url=http://img.kxting.cn//p1/05/07/72446788.jpg&w=150&h=150&s=100&c=0&o=0&m=",
+      "id": 2727043,
+      "name": "流行空间",
+      "num_tracks": 3,
+      "release_date": "2017-02-17",
+      "type": "EP/单曲"
+    },
+    {
+      "artists": [
+        {
+          "id": 61684909,
+          "name": "Various Artists",
+          "portrait": "http://pic.cdn.duomi.com/imageproxy2/dimgm/scaleImage?url=http://img.kxting.cn//p1/18/06/71814804.jpg&w=150&h=150&s=100&c=0&o=0&m=",
+          "valid": true
+        }
+      ],
+      "available": true,
+      "company": "",
+      "cover": null,
+      "id": 2731931,
+      "name": "미시들의 애창곡 2",
+      "num_tracks": 0,
+      "release_date": "2009-06-09",
+      "type": "专辑"
+    },
+    {
+      "artists": [
+        {
+          "id": 61684909,
+          "name": "Various Artists",
+          "portrait": "http://pic.cdn.duomi.com/imageproxy2/dimgm/scaleImage?url=http://img.kxting.cn//p1/18/06/71814804.jpg&w=150&h=150&s=100&c=0&o=0&m=",
+          "valid": true
+        }
+      ],
+      "available": true,
+      "company": "",
+      "cover": null,
+      "id": 2731932,
+      "name": "미시들의 애창곡 3",
+      "num_tracks": 0,
+      "release_date": "2009-06-09",
+      "type": "专辑"
+    }
+  ],
+  "artist_offset": 0,
+  "artists": null,
+  "dm_error": 0,
+  "error_msg": "操作成功",
+  "recommend": 0,
+  "total_albums": 86,
+  "total_artists": 0,
+  "total_tracks": 17,
+  "track_offset": 0,
+  "tracks": [
+    {
+      "album": {
+        "cover": "/p1/26/24/71184489.jpg",
+        "id": 2067013,
+        "name": "认了吧"
+      },
+      "artists": [
+        {
+          "id": 50000673,
+          "name": "陈奕迅",
+          "num_albums": 25,
+          "num_tracks": 149,
+          "portrait": "/p1/18/01/72065005.jpg",
+          "valid": true
+        }
+      ],
+      "availability": "1110",
+      "dlyric": "",
+      "id": 12774583,
+      "medias": [
+        {
+          "bitrate": 320,
+          "p2purl": "F22087993F0709C3440500000098EF04850000004D.mp3"
+        }
+      ],
+      "mv": 0,
+      "slyric": "static/30/31/92257735.txt",
+      "title": "好久不见",
+      "isdown": "1",
+      "isplay": "1"
+    },
+    {
+      "album": {
+        "cover": "/p1/18/28/70851820.jpg",
+        "id": 2008247,
+        "name": "Stranger Under My Skin"
+      },
+      "artists": [
+        {
+          "id": 50000673,
+          "name": "陈奕迅",
+          "num_albums": 25,
+          "num_tracks": 149,
+          "portrait": "/p1/18/01/72065005.jpg",
+          "valid": true
+        },
+        {
+          "id": 50000449,
+          "name": "王菲",
+          "num_albums": 29,
+          "num_tracks": 168,
+          "portrait": "/p1/10/16/70861081.jpg",
+          "valid": true
+        }
+      ],
+      "availability": "1110",
+      "dlyric": "",
+      "id": 21520790,
+      "medias": [
+        {
+          "bitrate": 320,
+          "p2purl": "19383CEE105CCEDFBF050000008469F46100000079.mp3"
+        }
+      ],
+      "mv": 0,
+      "slyric": "static/13/20/92257625.txt",
+      "title": "因为爱情",
+      "isdown": "1",
+      "isplay": "1"
+    },
+    {
+      "album": {
+        "cover": "/p1/28/12/71267571.jpg",
+        "id": 2338139,
+        "name": "Everything In The World(白金庆功版)"
+      },
+      "artists": [
+        {
+          "id": 61014850,
+          "name": "曲婉婷",
+          "num_albums": 4,
+          "num_tracks": 34,
+          "portrait": "/p1/24/32/70861064.jpg",
+          "valid": true
+        }
+      ],
+      "availability": "1110",
+      "dlyric": "",
+      "id": 24686706,
+      "medias": [
+        {
+          "bitrate": 320,
+          "p2purl": "BE34983A05BEAA0BF705000000857B6C9600000024.mp3"
+        }
+      ],
+      "mv": 0,
+      "slyric": "static/23/27/92258193.txt",
+      "title": "我的歌声里",
+      "isdown": "1",
+      "isplay": "1"
+    },
+    {
+      "album": {
+        "cover": "/p1/10/08/71184473.jpg",
+        "id": 2177998,
+        "name": "Solidays 新曲+精选"
+      },
+      "artists": [
+        {
+          "id": 50000673,
+          "name": "陈奕迅",
+          "num_albums": 25,
+          "num_tracks": 149,
+          "portrait": "/p1/18/01/72065005.jpg",
+          "valid": true
+        }
+      ],
+      "availability": "1110",
+      "dlyric": "",
+      "id": 10008269,
+      "medias": [
+        {
+          "bitrate": 320,
+          "p2purl": "E4B3F0234C8ADC139C05000000AEA633A40000002F.mp3"
+        }
+      ],
+      "mv": 0,
+      "slyric": "static/06/07/92257711.txt",
+      "title": "浮夸",
+      "isdown": "1",
+      "isplay": "1"
+    },
+    {
+      "album": {
+        "cover": "/p1/29/32/71426354.jpg",
+        "id": 2583894,
+        "name": "不想放手"
+      },
+      "artists": [
+        {
+          "id": 50000673,
+          "name": "陈奕迅",
+          "num_albums": 25,
+          "num_tracks": 149,
+          "portrait": "/p1/18/01/72065005.jpg",
+          "valid": true
+        }
+      ],
+      "availability": "1110",
+      "dlyric": "",
+      "id": 12956796,
+      "medias": [
+        {
+          "bitrate": 320,
+          "p2purl": "330444A900EF12E33305000000B0117776000000BF.mp3"
+        }
+      ],
+      "mv": 0,
+      "slyric": "static/01/13/92276461.txt",
+      "title": "不要说话(国)",
+      "isdown": "1",
+      "isplay": "1"
+    },
+    {
+      "album": {
+        "cover": "/p1/21/27/71196636.jpg",
+        "id": 2417271,
+        "name": "Call Me Maybe"
+      },
+      "artists": [
+        {
+          "id": 60002701,
+          "name": "Carly Rae Jepsen",
+          "num_albums": 12,
+          "num_tracks": 45,
+          "portrait": "/p1/18/14/70654598.jpg",
+          "valid": true
+        }
+      ],
+      "availability": "1110",
+      "dlyric": "",
+      "id": 23799937,
+      "medias": [
+        {
+          "bitrate": 320,
+          "p2purl": "3B296A665310B29D19050000007614913300000029.mp3"
+        }
+      ],
+      "mv": 0,
+      "slyric": "static/05/25/92265088.txt",
+      "title": "Call Me Maybe",
+      "isdown": "1",
+      "isplay": "1"
+    },
+    {
+      "album": {
+        "cover": "/p1/09/09/70751712.jpg",
+        "id": 2352365,
+        "name": "爱情睡醒了"
+      },
+      "artists": [
+        {
+          "id": 50000894,
+          "name": "林俊杰",
+          "num_albums": 9,
+          "num_tracks": 92,
+          "portrait": "/p1/24/11/71167778.jpg",
+          "valid": true
+        }
+      ],
+      "availability": "1110",
+      "dlyric": "",
+      "id": 12994391,
+      "medias": [
+        {
+          "bitrate": 320,
+          "p2purl": "71AC5F8376328D9C35050000008F6633F000000011.mp3"
+        }
+      ],
+      "mv": 0,
+      "slyric": "static/17/08/92257877.txt",
+      "title": "背对背拥抱",
+      "isdown": "1",
+      "isplay": "1"
+    },
+    {
+      "album": {
+        "cover": "/p1/00/26/72324674.jpg",
+        "id": 2715142,
+        "name": "许嵩单曲集"
+      },
+      "artists": [
+        {
+          "id": 51032159,
+          "name": "许嵩",
+          "num_albums": 13,
+          "num_tracks": 82,
+          "portrait": "/p1/04/08/71274398.jpg",
+          "valid": true
+        }
+      ],
+      "availability": "1110",
+      "dlyric": "",
+      "id": 12978680,
+      "medias": [
+        {
+          "bitrate": 320,
+          "p2purl": "E1F7BA5C718705CFDA050000008AA5DFAE0000009A.mp3"
+        }
+      ],
+      "mv": 0,
+      "slyric": "static/29/27/92273637.txt",
+      "title": "断桥残雪",
+      "isdown": "1",
+      "isplay": "1"
+    },
+    {
+      "album": {
+        "cover": "/p1/18/26/70851851.jpg",
+        "id": 2337676,
+        "name": "Overexposed"
+      },
+      "artists": [
+        {
+          "id": 51023161,
+          "name": "Maroon 5",
+          "num_albums": 24,
+          "num_tracks": 75,
+          "portrait": "/p1/06/02/71283731.jpg",
+          "valid": true
+        },
+        {
+          "id": 51081202,
+          "name": "Wiz Khalifa",
+          "num_albums": 0,
+          "num_tracks": 22,
+          "portrait": "/p1/10/13/71072377.jpg",
+          "valid": true
+        }
+      ],
+      "availability": "1110",
+      "dlyric": "",
+      "id": 24680998,
+      "medias": [
+        {
+          "bitrate": 320,
+          "p2purl": "3F240B5C0625CCE351050000008D4343CC0000006F.mp3"
+        }
+      ],
+      "mv": 0,
+      "slyric": "static/29/12/91518384.txt",
+      "title": "Payphone",
+      "isdown": "1",
+      "isplay": "1"
+    },
+    {
+      "album": {
+        "cover": "/p1/10/08/71184473.jpg",
+        "id": 2177998,
+        "name": "Solidays 新曲+精选"
+      },
+      "artists": [
+        {
+          "id": 50000673,
+          "name": "陈奕迅",
+          "num_albums": 25,
+          "num_tracks": 149,
+          "portrait": "/p1/18/01/72065005.jpg",
+          "valid": true
+        }
+      ],
+      "availability": "1110",
+      "dlyric": "",
+      "id": 10177964,
+      "medias": [
+        {
+          "bitrate": 320,
+          "p2purl": "B48B2A2974460621AE050000009D34E5ED00000039.mp3"
+        }
+      ],
+      "mv": 0,
+      "slyric": "static/03/20/92429324.txt",
+      "title": "富士山下",
+      "isdown": "1",
+      "isplay": "1"
+    }
+  ]
+}

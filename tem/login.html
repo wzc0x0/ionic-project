@@ -1,0 +1,48 @@
+<ion-modal-view title="登陆">
+<div class="bar-energized  bar bar-header item-input-inset">
+    <h2 class="title">登陆</h2>
+    <button class="button button-clear" ng-click="modal.hide()">关闭</button>
+</div>
+<ion-content class="has-header">
+    <ion-slide-box class="has-header" delegate-handle="accountSlide" show-pager="false" on-slide-changed="accountSlideChanged($index)">
+        <ion-slide>
+            <div class="list list-inset login-hover">
+	            <label class="item item-input">
+	                <i class="icon ion-person"></i>&nbsp;&nbsp;&nbsp;
+	            	<input type="text" ng-model="loginData.name" placeholder="账号">
+	        	</label>
+                <label class="item item-input">
+	                <i class="icon ion-locked"></i>&nbsp;&nbsp;&nbsp;
+	            	<input type="password" ng-model="loginData.password" placeholder="密码">
+        		</label>
+                <div class="padding">
+					<button class="button button-block button-outline button-positive" ng-click="login()">登陆</button>
+				</div>
+            </div>
+        </ion-slide>
+        <ion-slide>
+            <div class="list list-inset login-hover">
+                <label class="item item-input">
+	                <i class="ion-ios-person-outline"></i>&nbsp;&nbsp;&nbsp;
+	            	<input type="text" ng-model="regData.account" placeholder="账号">
+        		</label>
+                <label class="item item-input">
+	                <i class="ion-ios-email-outline"></i>&nbsp;&nbsp;&nbsp;
+	            	<input type="text" ng-model="regData.email" placeholder="邮箱">
+        		</label>
+                <label class="item item-input">
+	                <i class="ion-ios-locked-outline"></i>&nbsp;&nbsp;&nbsp;
+	            	<input type="password" ng-model="regData.password" placeholder="密码">
+        		</label>
+        		<div class="padding">
+	                <button class="button button-block button-balanced" ng-click="register()">确认注册</button>		
+        		</div>
+            </div>
+        </ion-slide>
+    </ion-slide-box>
+</ion-content> 
+<ion-tabs delegate-handle="accountTab"  class="tabs-striped tabs-top">
+    <ion-tab on-select="accountSelectedTab(0)" title="登陆"></ion-tab>
+    <ion-tab on-select="accountSelectedTab(1)" title="注册"></ion-tab>
+</ion-tabs>
+</ion-modal-view>

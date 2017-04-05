@@ -1,0 +1,26 @@
+<ion-view>
+	<div class="bar bar-header bar-stable">
+  		<h1 class="title">轻松一下</h1>
+	</div>
+	<ion-content class="has-header" lazy-scroll>
+		<div class="list card" ng-repeat="item in items">
+		  <div class="item item-avatar">
+		    <img ng-src="http://pic.cdn.duomi.com/imageproxy2/dimgm/scaleImage?url=http://img.kxting.cn/{{item.artists[0].portrait}}&w=150&h=150&s=100&c=0&o=0&m="
+		    	class="avatar"
+		    	>
+		    <h2 class="song">{{item.title}}</h2>
+		    <p class="author">{{item.artists[0].name}}</p>
+		  </div>
+		  <div class="item item-image">
+		    <img image-lazy-src="http://pic.cdn.duomi.com/imageproxy2/dimgm/scaleImage?url=http://img.kxting.cn/{{item.album.cover}}&w=330&h=330&s=100&c=0&o=0&m="
+image-lazy-loader="lines"
+		    	>
+		  </div>
+		  <div class="item item-icon-left assertive"  on-tap="playAudio($index)">
+		    <i class="icon ion-music-note"></i>
+		    <p>试听一下~~</p>
+		  </div>
+		  <audio class="myAudio"></audio>
+		</div>
+	</ion-content>
+</ion-view>

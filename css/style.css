@@ -1,0 +1,12 @@
+/* Empty. Add your own CSS if you like */
+.audio-rotate{animation:rotating 5s linear infinite;}
+a.subdued{color: #262626;}
+@keyframes rotating{
+	0%,
+	100%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}

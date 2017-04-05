@@ -1,0 +1,23 @@
+<ion-view view-title="请登录或注册">
+    <ion-content>
+        <ion-refresher pulling-text="下拉刷新" on-refresh="doRefresh()"></ion-refresher>
+        <ion-list>
+            <a class="item item-avatar item-icon-right" ng-click="goDetails()">
+                <img ng-src="{{user.avatar==undefind?'':imgUrl+user.avatar}}">
+                <h2><span style="font-size: 24px;">{{user.account==undefind?'未登陆':user.account}}</span></h2>
+                <!--<i class="icon ion-ios-arrow-right"></i>-->
+            </a>
+            <ion-item class="item-divider item-gap">
+            </ion-item>
+           	<div class="item"><span>我的收藏</span></div>
+        </lon-list>
+        <div class="list">
+		    <div class="item item-thumbnail-left" ng-repeat="item in items">
+		      <img ng-src="{{item.images.small}}">
+		      <h2>{{item.title}}</h2>
+		      <p>{{item.author[0]}}</p>
+		      <p>{{item.price}}</p>
+		    </div>
+		</div>
+    </ion-content>
+</ion-view>           

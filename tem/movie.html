@@ -1,0 +1,24 @@
+<ion-view>
+	<div class="bar bar-header bar-stable">
+  		<h1 class="title">热门电影</h1>
+	</div>
+	<ion-content class="has-header" lazy-scroll>
+		<div class="list card" ng-repeat="item in items">	
+		  	<div class="item item-body">
+		    <img class="full-image" image-lazy-src="{{item.images.large}}"
+		    	image-lazy-loader="lines">
+		    <p>
+		    	<span style="font-size: 18px;color: #000000;">{{item.title}}</span>
+		      ({{item.original_title}})
+		    </p>
+		    <p>
+		      <a href="#" class="subdued">{{item.genres[0]}}</a>
+		      <a href="#" class="subdued">{{item.rating.average}}分</a>
+		      <a href="#" class="subdued">{{item.year}}</a>
+		      <a href="#" class="subdued">{{item.casts[0].name}}</a>
+		      <a href="#" class="subdued">{{item.casts[1].name}}</a>
+		    </p>
+		  </div>
+		</div>
+	</ion-content>
+</ion-view>
